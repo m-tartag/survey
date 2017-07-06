@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class ="container">
+        <div class="col-xs-6 col-xs-offset-3">
+            <div id="header">Survey</div><br/>
+            
+            <form id="survey">
+                <div>
+                    <label class="labels">Name:</label>
+                    <input id="usr" type="text" required placeholder="Full Name">
+                </div>    
+                <div>
+                    <label class="labels">Email:</label>
+                    <input id="email" type="email" required placeholder="Email">
+                </div>
+                <div>
+                     <label class="labels">Age:</label>
+                     <input id="age" type="number" min="1" max="100" required placeholder="Age">
+                </div><br/>
+                <div>
+                    <label class="labels">Sex:</label>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </div><br/>
+                <div>
+                    <label class="labels">What is your favorite color?</label><br/>
+                    <select>
+                        <option selected>Select one</option>
+                        <option>Blue</option>
+                        <option>Red</option>
+                        <option>Black</option>
+                        <option>Green</option>
+                        <option>Yellow</option>
+                        <option>Orange</option>
+                        <option>Purple</option>
+                    </select><br/><br/>
+                </div>
+                <div>
+                    <label class="labels">Check all that apply</label><br/>
+                        <input type="checkbox">I'm Hungry<br/>
+                        <input type="checkbox">I'm Sad<br/>
+                        <input type="checkbox">I'm Not a Robot<br/>
+                        <input type="checkbox">I'm Batman
+                </div><br/>
+                <div>
+                    <label class="labels">Describe your worst nightmare:</label>
+                        <textarea class="textbox" id="comment" rows="4"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

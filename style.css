@@ -1,0 +1,22 @@
+
+
+.container {
+    border-style:solid;
+    font-size: 18px;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin: 25px 25px 25px 25px;
+    text-align: center;
+    background-image: url(https://wallpaperscraft.com/image/surface_network_light_background_texture_50497_1920x1200.jpg);
+    
+}
+
+#header {
+    font-family: impact;
+    font-size: 75px;
+    margin-top: 10px;
+
+}
+
+#survey {
+    padding: 10px;
+}
